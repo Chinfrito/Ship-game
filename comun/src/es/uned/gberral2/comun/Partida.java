@@ -29,6 +29,7 @@ public class Partida implements Serializable {
 	Estado estado;
 	
 	public Partida(int player1) {
+		System.out.println("Creando partida");
 		tablero1 = new int[TAMAÑO_TABLERO][TAMAÑO_TABLERO];
 		tablero2 = new int[TAMAÑO_TABLERO][TAMAÑO_TABLERO];
 		this.player1 = player1;
